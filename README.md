@@ -1,2 +1,4 @@
-# gdisk-cookbook
-Chef Cookbook to provide gdisk resource
+# gdisk
+
+TODO: Enter the cookbook description here.
+
