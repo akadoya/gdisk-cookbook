@@ -55,6 +55,7 @@ MBR partitions will be converted to GPT format.
 | `action`        | `String` | `:create`, `:delete` or `:change_type`                                         |
 
 ** Note **
+
 When creating a new partition, you can specify the size or the starting/ending sectors.
 
 - only size is specified : creates a partition from the default starting sector + size 
