@@ -10,3 +10,4 @@ chef_version '>= 12.1' if respond_to?(:chef_version)
 issues_url 'https://github.com/akadoya/gdisk/issues'
 source_url 'https://github.com/akadoya/gdisk'
 
+supports 'ubuntu', '= 16.04'
