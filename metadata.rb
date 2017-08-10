@@ -1,7 +1,7 @@
 name 'gdisk'
 maintainer 'Aoi Kadoya'
 maintainer_email 'cadyan.aoi@gmail.com'
-license 'Apache v2.0'
+license 'Apache 2.0'
 description 'Provides gdisk resource'
 long_description 'Provides gdisk resource to partition disks'
 version '0.1.2'
