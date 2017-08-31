@@ -88,7 +88,10 @@ module Gdisk
         size_check_sector(sector_diff, pt.device_name)
         options = "#{pt.start_sector}:#{pt.end_sector}"
       end
-      run_sgdisk("-n #{pt.number}:#{options} -t #{pt.number}:#{pt.type} -g #{pt.device_name}")
+      unless nil_or_empty?(pt.partition_name)
+        name_option = "-c #{pt.number}:#{pt.partition_name}"
+      end
+      run_sgdisk("-n #{pt.number}:#{options} -t #{pt.number}:#{pt.type} #{name_option} -g #{pt.device_name}")
     end
 
     def delete_partition(pt)
