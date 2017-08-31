@@ -31,7 +31,7 @@ gdisk_partition 'Create a partition ends at the end of the disk' do
   device_name '/dev/sda'
   number 7
   end_sector 0
-  partition_name 'sample'
+  partition_name 'sample swap'
   size '1K'
 end
 
